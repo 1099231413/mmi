@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-09-11 20:34:35
+ * @version $Id$
+ */
+/*头部*/
+.mi{
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.mi_head{
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+	position: relative;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	color: #DEDCDC;
+}
+.mi_head i{
+	position: absolute;
+	left: 10px;
+    top: 4px;
+}
+.mi_head input{
+	width: 100%;
+	padding: 5px 33px;
+	box-sizing: border-box;
+	font-size: 13px;
+	color: #A8A7A7;
+}
+.mi_border_top{
+	height: 6px;
+	border: 1px solid #C9C8C8;
+	border-top: none;
+	margin: 0 8px;
+}
+/*轮播图*/
+.mi_banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.mi_banner ul{
+	width: 1000%;
+}
+.mi_banner li{
+	width: 10%;
+	float: left;
+}
+.mi_banner img{
+	display: block;
+	width: 100%;
+}
+/*数字按钮*/
+.mi_banner ol{
+	position: absolute;
+	left: 50%;
+	bottom: 16px;
+	margin-left: -42px;
+}
+.mi_banner ol li{
+	width: 5px;
+	height: 5px;
+	background: #666666;
+	margin-right: 10px;
+	border-radius: 50px;
+}
+.mi_banner ol li.color{
+	background: #fff;
+}
+/*分类*/
+.mi_list{
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+}
+.mi_list ul{
+	float: left;
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+	padding-bottom: 5px;
+	background: #EBE9E9;
+}
+.mi_list li:nth-child(1),
+.mi_list li:nth-child(4){
+	margin-left: 0;
+}
+.mi_list li{
+	float: left;
+	width: 32%;
+	margin-left: 6px;
+	margin-top: 5px;
+}
+.mi_list img{
+	width: 100%;
+	display: block;
+}
+/*手机*/
+.mi_footer li{
+	padding: 20px 0;
+	border-bottom: 1px solid #CBCACA;
+}
+.mi_footer li img{
+	width: 38%;
+}
+.mi_footer .mi_con{
+	margin-right: 40px;
+}
+.mi_footer .mi_con p:nth-child(1){
+	padding-bottom: 2px;
+}
+.mi_footer .mi_con p:nth-child(2){
+	padding-bottom: 8px;
+}
+.mi_footer .mi_con p:nth-child(3){
+	color: #ff6700;
+}
+/*固定*/
+.mi_fixed{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	max-width: 500px;
+	min-width: 300px;
+}
+.mi_fixed li{
+	float: left;
+	width: 25%;
+	border-top: 1px solid #D6D5D5;
+	background: #fff;
+	text-align: center;
+	padding: 12px 0;
+}
+.mi_fixed li .dont{
+	font-size: 26px;
+	font-weight: bold;
+}
+.mi_fixed li p{
+	font: 400 16px "微软雅黑";
+}

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-09-01 19:02:34
+ * @version $Id$
+ */
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td,img {
+	margin: 0;
+	padding: 0
+}
+.mi_top,.mi_head,.mi_buttom,.mi_home,.mi_main,.mi_link,.mi_bom,.mi_name,.mi_max{
+	min-width: 1226px;
+}
+body, button, input, select, textarea {
+	font: 12px/1.5tahoma, arial, \5b8b\4f53
+}
+.container{
+	width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%
+}
+address, cite, dfn, em, var {
+	font-style: normal
+}
+code, kbd, pre, samp {
+	font-family: couriernew, courier, monospace
+}
+small {
+	font-size: 12px
+}
+ul, ol {
+	list-style: none
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	// color:#ff6700;
+	text-decoration: none;
+}
+sup {
+	vertical-align: text-top
+}
+sub {
+	vertical-align: text-bottom
+}
+legend {
+	color: #000
+}
+fieldset, img {
+	border: 0
+}
+button, input, select, textarea {
+	font-size: 100%
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.ct{
+	text-align: center;
+}
+.clearfix:before, .clearfix:after {
+    /*清除浮动，最好最标准的写法*/
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/  /*兼容IE6下的写法*/
+}
+input{
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+img{
+	vertical-align: middle; /*  去掉图片底部默认的3像素空白缝隙*/
+}
