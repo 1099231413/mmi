@@ -91,12 +91,16 @@
 .mi_list li:nth-child(1),
 .mi_list li:nth-child(4){
 	margin-left: 0;
+	margin-right: 7px;
 }
 .mi_list li{
 	float: left;
 	width: 32%;
-	margin-left: 6px;
 	margin-top: 5px;
+}
+.mi_list li:nth-child(3),
+.mi_list li:nth-child(6){
+	float: right;
 }
 .mi_list img{
 	width: 100%;
