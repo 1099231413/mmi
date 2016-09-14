@@ -104,39 +104,53 @@
 }
 /*手机*/
 .mi_footer li{
-	padding: 20px 0;
+	padding: 14px 0;
 	border-bottom: 1px solid #CBCACA;
 }
+.mi_footer li a{
+	display: block;
+	float: left;
+}
 .mi_footer li img{
-	width: 38%;
+	width: 7em;
+	margin-top: 12px;
 }
 .mi_footer .mi_con{
-	margin-right: 40px;
+	width: 100%;
+	font: 400 12px "微软雅黑";
 }
 .mi_footer .mi_con p:nth-child(1){
 	padding-bottom: 2px;
+	font-size: 13px;
 }
 .mi_footer .mi_con p:nth-child(2){
-	padding-bottom: 8px;
+	padding-right: 10px;
+	// font-size: 10px;
+	color:#969696;
 }
 .mi_footer .mi_con p:nth-child(3){
 	color: #ff6700;
+	padding-top: 8px;
 }
 /*固定*/
 .mi_fixed{
 	width: 100%;
 	position: fixed;
-	bottom: 0;
+	z-index: 1000;
+	bottom: -1px;
 	max-width: 500px;
 	min-width: 300px;
+	background: #fff;
 }
 .mi_fixed li{
 	float: left;
 	width: 25%;
 	border-top: 1px solid #D6D5D5;
-	background: #fff;
 	text-align: center;
 	padding: 12px 0;
+}
+.mi_fixed li:nth-child(1) a{
+	color: #ff6700;
 }
 .mi_fixed li .dont{
 	font-size: 26px;
